@@ -1,0 +1,30 @@
+</br>
+<h1 class = "text-light text-center bg-dark">Hospital List</h1>
+
+<div class="hospital_page">
+
+<%= link_to "Add New Hospital", new_hospital_path ,class:"btn btn-secondary btn-lg" %>
+</div>
+<br>
+  <table class="table table-striped table-hover table-bordered table-sm">
+  <thead class="table-dark">
+    <tr>
+      <th>Hospital name</th>
+      <th>Address</th>
+      <th>Email</th>
+      <th>Phone</th>
+      
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @hospitals.each do |hospital| %>
+      <tr>
+        <td><%= hospital.hospital_name %></td>
+        <td><%= hospital.address %></td>
+        <td><%= hospital.email %></td>
+        <td><%= hospital.phone %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
