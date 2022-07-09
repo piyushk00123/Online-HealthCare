@@ -1,24 +1,32 @@
-# README
+PRODUCT FUNCTIONALITY
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hospital Registration – A hospital can register by providing details like hospital id, username, password, address, phone number, government approval.
 
-Things you may want to cover:
+Patient Registration – Patient can register on this site by providing patient name, phone number, Aadhar details etc.
 
-* Ruby version
+Patient - A patient can upload their health issue as text description.
+ 
+Display hospital – Patient can search for Hospital by their name.
 
-* System dependencies
+Display doctor – Patient can search for doctor by their name or department. 
 
-* Configuration
+Prescription - After verify patient health issue doctor can upload scanned copy of prescription.
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
+INSTALLATION AND CONFIGURATION:
 
-* Services (job queues, cache servers, search engines, etc.)
+Installation and Configuration of the following components in our systems:
 
-* Deployment instructions
+Ruby (Version 3.0.x or above)
 
-* ...
+Node .js (Version 16.x.x or above)
+
+Rails (Version 6.1 or above)
+
+Yarn (Version 1.22.x or above)
+
+SQLite3 (Version 3.x or above)
+
+
+
